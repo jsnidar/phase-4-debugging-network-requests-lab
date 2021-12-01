@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: I put a bye bug in the controller and got an error message about an unitialized variable Toys, I knew it should have been Toy. I changed it and it worked. 
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: I got a response that with a json parse error, so I knew I had to make sure it was returning json. Once I fixed that it worked. 
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: Thre wasn't a route set up for it, I got 404 not found. So I included the destroy route and it worked. 
